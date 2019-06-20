@@ -1,0 +1,23 @@
+ul{
+    border-radius: 1rem;
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+ul a{
+    border-radius: 1rem;
+    color: #9bff85;
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: all 200ms ease;
+}
+.bubble{
+    border-radius: 16px;
+    border: solid 2px #94ffff;
+    box-sizing: border-box;
+    height: 34px;
+    position: absolute;
+    transition: width 200ms ease, left 200ms ease;
+    width: 10px;
+}
